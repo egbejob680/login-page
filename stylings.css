@@ -1,0 +1,29 @@
+body{
+    margin: 50;
+    padding: 20;
+}
+#first-section{
+    background-color: rgb(69, 167, 206);
+    padding: 10;
+    margin: 10;
+}
+#login-section{
+    width: 80;
+    margin: auto;
+    padding-top: 100px;
+    
+}
+.row{
+    display: flex;
+    margin:0;
+    padding: 2% 6%;
+}
+.info{
+    flex-basis: 31%;
+    border-radius: 10px;
+    text-align: left;
+    justify-content: space-between;
+}
+.info-login{
+    text-align: right;
+}
