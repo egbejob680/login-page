@@ -10,13 +10,16 @@ body{
 #login-section{
     width: 80;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 20px;
+    display: flex;
+    text-align: justify;
+    justify-content: space-between;
     
 }
 .row{
     display: flex;
     margin:0;
-    padding: 2% 6%;
+    
 }
 .info{
     flex-basis: 31%;
@@ -25,5 +28,16 @@ body{
     justify-content: space-between;
 }
 .info-login{
-    text-align: right;
+    width: 80%;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+    text-align: center;
+    padding-left: 80px;
+    background: white;
+    margin: 2% auto 0;
+    padding: 20px;
+    margin-left: 90px;
+
+}
+.logo{
+    text-align: center;
 }
