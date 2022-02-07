@@ -194,6 +194,10 @@ h3{
         width: 35%;
         height: 400px;
     }
+    .content img{
+        width: auto;
+        height: auto;
+    }
     .h3{
         color:white;
         background: rgb(12, 12, 139);
@@ -214,6 +218,7 @@ h3{
         margin: 2% auto 0;
         padding: 2px;
         margin-right: 90px;
+        margin-top: 300px;
     
     }
     .admission{
