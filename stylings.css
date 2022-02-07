@@ -150,3 +150,118 @@ h3{
     color: rgb(29, 22, 112)
 
 }
+@media(max-width: 900px){
+    #first-section{
+        background-color: rgb(41, 127, 161);
+        padding: 2px;;
+        margin: 0;
+        height: 3;  
+        
+    }
+    #login-section{
+        width: 20;
+        height: 70vh;
+        margin: 20;
+        padding-top: 2px;
+        display: block;
+        text-align: justify;
+        justify-content: space-between;
+        font-size: 12px;
+        display: block;
+        
+    }
+    .row{
+        display: flex;
+        margin:0;
+        box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+        
+        margin-right: 70px;
+        
+    }
+    .info{
+        flex-basis: 3%;
+        border-radius: 10px;
+        text-align: left;
+        justify-content: space-between;
+        background-color: white;
+        height: 100%;
+        width: 100px;
+
+        
+    }
+    .content{
+        background-color: white;
+        width: 35%;
+        height: 400px;
+    }
+    .h3{
+        color:white;
+        background: rgb(12, 12, 139);
+       
+        text-align: center;
+        margin-top: 1px;
+        padding-top: 3px;
+        
+        
+    }
+    .info-login{
+        width: 200px;
+        height: 100vh;
+        box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+        text-align: center;
+        padding-right: 2%;
+        background: white;
+        margin: 2% auto 0;
+        padding: 2px;
+        margin-right: 90px;
+    
+    }
+    .admission{
+        text-align: center;
+        float: right;
+    }
+    .admission a{
+        text-decoration: none;
+        background-color: green;
+        color: white;
+        padding: 11px;
+        font-size: 15;
+        text-align: center;
+        
+       
+        
+    }
+    .transcript{
+        text-align: center;
+        float: right;
+        padding-top: -8;
+    }
+    .transcript a{
+        text-decoration: none;
+        color: white;
+        background-color: rgb(12, 12, 139);
+        padding: 10px;
+        padding-top: 2px;
+        margin-top: 3px;
+        font-size: 12;
+    }
+    .input-btn{
+        
+        padding: 10px;
+        margin: 10px 0;
+        width: 100px;
+        border-left: none;
+        border-top: none;
+        border-right: none;
+    }
+    .login-btn{
+        padding: 14px;
+        margin: 10px 0;
+        width: 100px;
+        color: white;
+        background-color: rgb(39, 39, 160);
+        font-size: large;
+        font-family:serif;
+    
+    }
+}
